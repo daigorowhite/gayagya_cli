@@ -1,0 +1,10 @@
+# ここにtwitterにつなぐ系のあれをあれしてください
+OAuthConsumerKey: ConsumerKey
+OAuthConsumerSecret: ConsumerSecret
+OAuthAccessToken: AccessToken
+OAuthAccessTokenSecret: AccessTokenSecret
+# 拾いたいハッシュタグやワードをリストで入れてね
+# テストするのに「おはよう」はちょうどいいワード
+YajiWords:
+ - '#yajiyaji'
+ - 'おはよう'
