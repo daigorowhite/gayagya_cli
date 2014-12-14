@@ -20,7 +20,7 @@ public class YajiYajiApplet extends Applet {
     static int displayWidth = 1024;//default
     static int displayHeight = 768;//default
     static int x = 0;
-    static int oneTermTimeMs = 100;
+    static int oneTermTimeMs = 200;
     static int oneLineCharSize = 20;
     static int maxMongonSize = 100;
     //TODO このwordsは、スレッドセーフにしなきゃだめ。
@@ -83,7 +83,7 @@ public class YajiYajiApplet extends Applet {
 
     public static void main(String args[]) {
         YajiYajiApplet ga = new YajiYajiApplet();
-        YajiYajiFrame m = new YajiYajiFrame("YajiTaji", ga);
+        YajiYajiFrame m = new YajiYajiFrame("YajiYaji", ga);
 
         //Frame画面をフルスクリーンにする
         GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();

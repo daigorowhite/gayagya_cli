@@ -17,7 +17,8 @@ public class YajiYajiUtil {
     }};
 
     static final java.util.List<String> FONT_LIST = new ArrayList<String>(){{
-        add("MS UI Gothic");
+//        add("MS UI Gothic");
+        add("Osaka");
 //        add("Arial");
 //        add("Helvetica");
     }};
@@ -28,6 +29,6 @@ public class YajiYajiUtil {
     }};
 
     static java.util.List<Integer> FONT_SIZE_LIST = new ArrayList<Integer>(){{
-        add(20);
+        add(24);
     }};
 }
